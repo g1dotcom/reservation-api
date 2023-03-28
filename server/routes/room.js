@@ -6,6 +6,7 @@ const {
   getAllRoom,
 } = require("../controllers/room.js");
 const { verifyAdmin } = require("../middleware/verify.js");
+const express = require("express");
 
 const router = express.Router();
 

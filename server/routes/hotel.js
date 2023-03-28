@@ -8,6 +8,7 @@ const {
   createHotel,
 } = require("../controllers/hotel.js");
 const { verifyAdmin } = require("../middleware/verify.js");
+const express = require("express");
 
 const router = express.Router();
 
